@@ -1,0 +1,21 @@
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+git init 			初始化仓库repository
+git add XX			添加到缓存
+git commit -m “”		提交到仓库
+git push -u origin master	推送到远程master（分支）
+
+
+git fetch 			拉取远程仓库最新代码
+git merge origin/master 	合并最新代码到master主线
+
+
+git status			当前仓库状态
+git diff			查看不同内容
+git log				提交日志
+git reset --hard HEAD^ 		返回上一个版本
+git reset --hard HEAD 		commit_id 返回到历史版本号
+
+
+git clone https://github.com/vuejs/vue.git    克隆vue.js到本地
