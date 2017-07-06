@@ -4,6 +4,10 @@ $ git config --global user.email "email@example.com"
 git init 			初始化仓库repository
 git add XX			添加到缓存
 git commit -m “”		提交到仓库
+
+git remote add origin https://github.com/webduchang/github.git   
+				git远程添加https://github.com/webduchang/github.git制定仓库
+
 git push -u origin master	推送到远程master（分支）
 
 
